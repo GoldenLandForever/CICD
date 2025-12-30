@@ -28,4 +28,4 @@ jobs:
         run: go test -v ./...  # 运行测试（如果有_test.go文件）
 
       - name: Run and Verify
-        run: go run main.go  # 运行代码并输出（可选，用于验证交替打印）
+        run: go run go.go  # 运行代码并输出（可选，用于验证交替打印）
